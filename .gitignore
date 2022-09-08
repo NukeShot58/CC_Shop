@@ -7,3 +7,4 @@
 /shop/*
 !/shop/shop_test.lua
 !shopSetup.lua
+!README.md
