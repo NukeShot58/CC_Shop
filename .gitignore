@@ -1,0 +1,9 @@
+/*
+!.gitignore
+!/Modules
+/Modules/*
+!/Modules/ss_tweaks.lua
+!/shop
+/shop/*
+!/shop/shop_test.lua
+!shopSetup.lua
