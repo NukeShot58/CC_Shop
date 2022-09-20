@@ -14,7 +14,7 @@ if not monitor then
 end
 local settings = '{"invNames": { "avbInvNames" : {}, "nAvbInvNames" : {} },"io" : {"ichest": "","ochest" : ""},"shopName" : "","shopColor" : "red","offers" : {}}'
 settings = textutils.unserialiseJSON(settings, _, true, true)
-os.pullEvent = os.pullEventRaw -- Diasables termination
+os.pullEvent = os.pullEventRaw -- Disables termination
 local lColors = { "white", "orange", "magenta", "lightBlue", "yellow", "lime", "pink", "gray", "lightGray", "cyan",
     "purple", "blue", "brown", "green", "red", "black" }
 local cFilePath = "shop/.pass.json"
